@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FEE PROJECT</title>
+   <link rel="stylesheet" href="style.css">
+   
+  <style>p {
+   text-align: center;
+   font-size: 60px;
+   margin-top: 0px;
+ }
+ #watermark{position: fixed;
+    bottom: 400px;
+    left: 400px;
+    font-size: 100px;
+    color:rgba(0, 0, 0, 0.249);
+    transform: rotate(30deg);
+    opacity: 0.6;
+    z-index: 100000;}
+    #design{
+    
+    }
+    /* .mydiv{
+       font-family: verdana;
+       text-align: center;
+       font-size:20px;
+      text-align: center;
+       display: inline-block;
+    }
+    .countdown{
+      border: 10px;
+      background-color: red;
+    } */
+    </style>
+</head>
+
+<body > 
+   <p id="demo"></p>
+   <!-- <div class="overlay"></div>
+      <div class="wrapper">
+         <div class=""> -->
+   <marquee
+     style="border:Solid";
+     behavior="bounce";
+     scrollamount="18";
+     left margin="99";
+     right margin="99";
+     direction ="right";>
+     <font color="red" font size="40">COUNTDOWN TIMER</font>
+
+    </marquee>
+
+    <br>
+    <br>
+    <form><center><i><b><font size="10" color="orange"> 
+      EVENTS LIST:</font> </i></b><br>
+     
+      <ul align="left">
+      <li>WEBSITE LAUNCHING</li>
+      <li>DIWALI</li>
+      <li>HOLI</li>
+      <li>BIRTHDAY</li></ul></align>
+      
+  
+      <!-- <select event="event" name="event" size="3"><option value="">
+         "SPACE EVENT"
+         </option>
+         <option value="">
+            " INAUGRATION EVENT"
+            </option>
+            <option value="">
+               "CULTURAL EVENT"
+               </option>
+               <option value="">
+                  "STUDY EVENT"
+                  </option>
+                  <option value="">
+                     "Home Ivent"
+
+                  </option>
+      </select> -->
+      </center>
+   </form>
+    <h1>
+      DEADLINE DATE:
+   </h1>
+   
+   <form >
+      <fieldset>
+
+      <legend>EVENT INFORMATION</legend>
+      ENTER DATE: <input type="date" id="enddate" value="" placeholder="DD/MM/YYYY" size="18"  left margin="4"><br>
+      <br>
+      ENTER TIME: <input type="time" id="endtime" value="" placeholder="12:00:00"  size="18" right margin="4">
+      </fieldset>
+      
+   </form>
+
+      <h2 align="right">Click 👇 to start/stop/reset the timer</h2>
+      <br>
+    <div class="design"> 
+   <form> <button ><font color="crimson red" size="8" >
+         START</font>
+      </button>
+
+      <button> <font color="blue" size="8"> STOP</font></button>
+
+      <button> <font color="green" size="8"> RESET</font></button>
+
+   </form>
+    </div>
+   <section id="timer">
+      <div class="timer1">
+          <!-- <h1>Time left for enrollment</h1> -->
+          <div class="countdown-container" id="d1" >
+          <div class="countdown-container">
+              <h1>Event Countdown</h1>
+              <div class="timer">
+                  <div class="time" id="days">10</div>
+                  <span>Days</span>
+              </div>
+              <div class="timer">
+                  <div class="time" id="hours">00</div>
+                  <span>Hours</span>
+              </div>
+              <div class="timer">
+                  <div class="time" id="minutes">00</div>
+                  <span>Minutes</span>
+              </div>
+              <div class="timer">
+                  <div class="time" id="seconds">00</div>
+                  <span>Seconds</span>
+              </div>
+          </div>
+      
+          <script src="custody.js"></script>
+          </div>
+      </div>
+  
+      </section>
+
+   <div id="watermark">
+      <b>FEE PROJECT</b></div> 
+
+ 
+</body>
+
+</html>
