@@ -1,5 +1,5 @@
 import { createFilter } from 'rollup-pluginutils';
-import { minify } from 'html-minifier';
+import { minify } from 'html-minifier';     //hello2
 
 export default function string(opts = {}) {
 	if (!opts.include) {
